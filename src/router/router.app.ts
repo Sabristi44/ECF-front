@@ -1,5 +1,6 @@
 import { isAdmin } from "@/guards/authentification.guard";
 import type {RouteRecordRaw} from "vue-router";
+import { PARTNER_ROUTE } from "./partner.routes.list";
 
 export const RoutesApp: RouteRecordRaw[] = [
     {
@@ -26,7 +27,7 @@ export const RoutesApp: RouteRecordRaw[] = [
     {
         path: "structure",
         component: () => import(),
-        children: STRUCT_ROUTE,
+        children: STRUCTURE_ROUTE,
         meta: {
             page: "structure-infos"
         }

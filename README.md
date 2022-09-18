@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ECF-Fitness-Goals
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -45,6 +44,3 @@ npm run build
 ```sh
 npm run lint
 ```
-=======
-# ECF-front
->>>>>>> 2af1c8d9f3630006178ae10cf47f00eaf0b44215
