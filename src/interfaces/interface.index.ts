@@ -1,0 +1,5 @@
+export * from  "./interface.gestion"
+export * from "./interface.partner"
+export * from "./interface.search"
+export * from "./interface.structure"
+export * from "./interface.user"

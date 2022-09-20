@@ -1,6 +1,7 @@
+import { initFetchStructureInfos } from "@/stores/structure.store";
 import type {RouteRecordRaw} from "vue-router";
 
-export const STRUCT_ROUTE: RouteRecordRaw[] = [
+export const STRUCTURE_ROUTE: RouteRecordRaw[] = [
     {
         path: "",
         redirect: "/secure/structure/"

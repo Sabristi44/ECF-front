@@ -8,15 +8,15 @@ export const userByDefault  = {
 }
 
 export interface InterfaceUserConnection {
-    email: String,
-    password: String,
+    email: string,
+    password: string,
     rememberMe: boolean,
 }
 
 export interface User {
     id: number,
-    email: String,
-    userName: String,
+    email: string,
+    userName: string,
     firstConnect: boolean,
     isAdmin: boolean,
     userActive: boolean,

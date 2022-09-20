@@ -1,3 +1,4 @@
+import { initFetchPartnerInfos } from "@/stores/partner.store";
 import type {RouteRecordRaw} from "vue-router";
 
 export const PARTNER_ROUTE: RouteRecordRaw[] = [
